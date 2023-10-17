@@ -1,0 +1,6 @@
+{
+    "C_Cpp.default.compilerPath": "d:\\Mingw64\\bin\\g++.exe",
+    "cmake.configureOnOpen": true,
+    "dotnet.defaultSolution": "ConsoleAppTest.sln",
+    "python.analysis.typeCheckingMode": "basic"
+}
