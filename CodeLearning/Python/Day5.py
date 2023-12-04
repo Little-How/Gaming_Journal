@@ -16,11 +16,26 @@ queue.append('A')
 queue.append('B')
 queue.append('C')
 print(queue)
-print('The third one is '+ queue[2]+ ", right!")
+print('The third one is', queue[2]+ ", right!")
 
 # 从队列的开头删除元素
 print(queue.pop(0))
 print(queue.pop(0))
+print("现在还剩下：", queue)
 print(queue.pop(0))
 print(queue)
+# Python列表脚本操作符
+listLenTest = ['Best', 'Wish', 'For', 'You']
+print("求长：", len(listLenTest))             #求长
+listLenTest.pop(2)
+listLenTest.pop(2)
+print("删除后, 还剩下", listLenTest)
+print("重复后：", listLenTest*4)    #重复
+print('me in listLenTest? ' in listLenTest)         # in?
+
+nowme = ['To','Me']                 # 迭代
+for x in [1,2]: listLenTest.append('To')
+for x in [1,2]: listLenTest.append('Me')
+print("迭代之后：", listLenTest)
+
 # Python列表截取与拼接
