@@ -16,9 +16,11 @@ queue.append('A')
 queue.append('B')
 queue.append('C')
 print(queue)
+print('The third one is '+ queue[2]+ ", right!")
+
 # 从队列的开头删除元素
 print(queue.pop(0))
 print(queue.pop(0))
 print(queue.pop(0))
-
+print(queue)
 # Python列表截取与拼接
